@@ -54,6 +54,8 @@ There are a few settings you can tweak if you so desire.  You can set them in Pr
 ## Using ##
 Whenever the cursor is anywhere within a paragraph, hitting the Wrap Plus keystroke will cause it to try to discover where the paragraph starts and where it ends.  It will then wrap all of those lines according to the wrap width you currently have set (View/Word Wrap Column).
 
+You can also use the command palette to use this command.
+
 ### Lists ###
 It handles a variety of lists, like bulleted lists or numbered lists. They should line up nicely:
 
