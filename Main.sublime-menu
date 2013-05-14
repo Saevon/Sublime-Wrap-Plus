@@ -1,0 +1,45 @@
+[
+    {
+        "id": "edit",
+        "children":
+        [
+            {
+                "caption": "Wrap Plus",
+                "mnemonic": "w",
+                "id": "wrap-plus",
+                "children":
+                [
+                    {
+                        "caption": "Wrap Paragraph",
+                        "command": "wrap_lines_plus"
+                    },
+                    {
+                        "caption": "Wrap Paragraph at 70 Characters",
+                        "command": "wrap_lines_plus",
+                        "args": {"width": 70}
+                    },
+                    {
+                        "caption": "Wrap Paragraph at 78 Characters",
+                        "command": "wrap_lines_plus",
+                        "args": {"width": 78}
+                    },
+                    {
+                        "caption": "Wrap Paragraph at 80 Characters",
+                        "command": "wrap_lines_plus",
+                        "args": {"width": 80}
+                    },
+                    {
+                        "caption": "Wrap Paragraph at 100 Characters",
+                        "command": "wrap_lines_plus",
+                        "args": {"width": 100}
+                    },
+                    {
+                        "caption": "Wrap Paragraph at 120 Characters",
+                        "command": "wrap_lines_plus",
+                        "args": {"width": 120}
+                    }
+                ]
+            }
+        ]
+    }
+]
