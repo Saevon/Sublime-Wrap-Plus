@@ -11,7 +11,7 @@ For users new to the package manager:
 Install Sublime Wrap Plus:
 * Bring up the Command Palette (`Command+Shift+P` on OS X, `Control+Shift+P` on Linux/Windows).
 * Select "Package Control: Install Package" and wait while Package Control fetches the latest package list.
-* Select Wrap Plus when the list appears.
+* Select `Wrap Plus` when the list appears.
 
 Package Control will handle automatically updating your packages.
 
@@ -21,17 +21,8 @@ Alternatively, you can fetch from github:
 
 and place it in your packages directory.
 
-## Configuring ##
-No need to configure anything.  By default it uses the default keystroke for wrap lines:
 
-* Windows/Linux: Alt+Q
-* OS X: Super+Alt+Q
-
-If you want to use a different keystroke, go to "Preferences" then "Key Bindings - User", and add an entry like this:
-
-	{ "keys": ["alt+q"], "command": "wrap_lines_plus" },
-
-Do not include the trailing comma if it is the last entry.
+## Preferences ##
 
 There are a few settings you can tweak if you so desire.  You can set them in Preferences / Settings-User.  They are:
 
@@ -50,6 +41,24 @@ There are a few settings you can tweak if you so desire.  You can set them in Pr
     <td>Whether or not to break lines on hyphens.</td>
   </tr>
 </table>
+
+
+## Commands ##
+
+`wrap_lines_plus`: Wraps the selected text or the current paragraph. Accepts an optional `width` parameter
+
+
+By default it uses the default keystroke for wrap lines:
+
+* Windows/Linux: Alt+Q
+* OS X: Super+Alt+Q
+
+If you want to use a different keystroke, go to "Preferences" then "Key Bindings - User", and add an entry like this:
+
+	{ "keys": ["alt+q"], "command": "wrap_lines_plus" },
+
+Do not include the trailing comma if it is the last entry.
+
 
 ## Using ##
 Whenever the cursor is anywhere within a paragraph, hitting the Wrap Plus keystroke will cause it to try to discover where the paragraph starts and where it ends.  It will then wrap all of those lines according to the wrap width you currently have set (View/Word Wrap Column).
